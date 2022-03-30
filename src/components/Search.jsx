@@ -17,6 +17,7 @@ function Search() {
         onChange={(e) => setInput(e.target.value)}
         type="text"
         value={input}
+        placeholder="Search food ...."
       />
     </FormStyle>
   );
